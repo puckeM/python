@@ -8,10 +8,6 @@ import time
 import threading
 from datetime import datetime
 
-
-#файловая система
-from bot.materials import def_get_text
-
 # настройка ведения логов
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
